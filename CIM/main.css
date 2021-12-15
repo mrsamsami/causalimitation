@@ -1,0 +1,104 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+nav ul, footer ul {
+    
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #0ac461;
+}
+a:hover {
+	color: #16ba9f;
+	font-weight: 600;
+}
+h1 {
+    font-size: 2.0em;
+    font-family:'Titillium Web', sans-serif;
+}
+h2 {
+    font-size: 1.8em;
+    font-family:'Titillium Web', sans-serif;
+}
+p {
+    line-height: 1.5em;
+    color: #333;
+/* 	text-align: justify; */
+	font-weight: 600;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+div.art_thumbnail_box {
+	float: left;
+	width: 100px;
+	height: 200px;
+	margin: 10px;
+	border: 1px solid #000000;  
+}
+
+div.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    width:100%;
+    height:100%;
+	max-width: 560px;
+	max-height: 315px;
+}
+
+div.video-responsive iframe{
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+	max-width: 560px;
+	max-height: 315px;
+    position:absolute;
+}
+
+pre {
+    background-color: #dde2e4;
+    overflow-x: auto;
+    padding: 1.25em 1.5em;
+    white-space: pre;
+    word-wrap: normal;
+    border-radius: 3px;
+    border: 1px solid #848f8e;
+}
+
+pre code {
+    background-color: transparent;
+    color: currentColor;
+    font-size: 1em;
+    padding: 0;
+}
+
+.title {
+    margin-bottom: 1.5rem;
+}
